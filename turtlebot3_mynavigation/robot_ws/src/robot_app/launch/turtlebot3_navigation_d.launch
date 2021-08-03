@@ -1,0 +1,5 @@
+<launch>
+
+  <node pkg="turtlebot3_mynavigation" type="turtlebot3_navigation_stack.sh" name="launch_navigation_stack" output="screen" />
+
+</launch>

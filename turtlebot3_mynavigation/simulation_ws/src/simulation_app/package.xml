@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>turtlebot3_mynavigation_simulation</name>
+  <version>1.0.0</version>
+  <description>
+    robotdemo simulation package with a TurtleBot3 in an empty Gazebo world.
+  </description>
+  <license>MIT</license>
+  <author email="robotdemo@robotdemo.com">robotdemo</author>
+  <maintainer email="robotdemo@robotdemo.com">robotdemo</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_plugins</depend>
+  <depend>turtlebot3_description</depend>
+  <depend>turtlebot3_description_reduced_mesh</depend>
+  <depend>turtlebot3_gazebo</depend>
+  <depend>turtlebot3_simulations</depend>
+  <exec_depend>gazebo</exec_depend>
+</package>
