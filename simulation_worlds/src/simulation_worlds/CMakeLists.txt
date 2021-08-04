@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(kuberobot_worlds)
+project(simulation_worlds)
 
 find_package(catkin QUIET)
 find_package(ament_cmake QUIET)
