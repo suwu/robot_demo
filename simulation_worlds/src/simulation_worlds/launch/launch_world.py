@@ -8,7 +8,7 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
   world_id = os.environ.get('WORLD_ID', "home1")
-  world = os.path.join(get_package_share_directory('kuberobot_worlds'),
+  world = os.path.join(get_package_share_directory('simulation_worlds'),
     'worlds', world_id, world_id + '.world')
 
   gazebo = launch.actions.IncludeLaunchDescription(
